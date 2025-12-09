@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - tp_todo2</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+    @{
+        var theme = Context.Request.Cookies["Theme"] ?? "light";
+        var bodyClass = theme == "dark" ? "bg-dark text-light" : "bg-light text-dark";
+    }
+    <body class="@bodyClass">
+        <header>
+        <nav class="navbar navbar-expand-lg @(theme == "dark" ? "navbar-dark bg-dark" : "navbar-light bg-light")">
+            <a class="navbar-brand" href="@Url.Action("Index", "Todo")">TodosApp</a>
+            <a class="btn btn-secondary" href="@Url.Action("Switch", "Theme")">Changer le thème</a>
+        </nav>
+        <div class="container mt-4">
+            @RenderBody()
+        </div>
+        </header>
+
+        <div class="container mt-4">
+            @RenderBody()
+        </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - tp_todo2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

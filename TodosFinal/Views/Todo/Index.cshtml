@@ -1,0 +1,60 @@
+﻿@model List<TodosFinal.Models.Todo>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+<h1>Todos List</h1>
+<h4>Date de votre dernière déconnexion : @ViewBag.LastLogout</h4>
+<div class="mb-3">
+    <a asp-action="Add" class="btn btn-success">
+        <i class="fas fa-plus"></i> Add Todo
+    </a>
+</div>
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Libelle</th>
+                <th>Description</th>
+                <th>State</th>
+                <th>Due Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var todo in Model)
+            {
+                bool isDone = todo.State == TodosFinal.Enums.State.DONE;
+                bool isOverdue = todo.Datetime.Date < DateTime.Now.Date && !isDone;
+
+                // Determine row class
+                var rowClass = "";
+                if (isDone) rowClass += " text-decoration-line-through"; 
+                if (isOverdue) rowClass += " table-danger"; 
+
+                <tr class="@rowClass">
+                    <td>@todo.Libelle</td>
+                    <td>@todo.Description</td>
+                    <td>@todo.State</td>
+                    <td>@todo.Datetime.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@todo.Id" class="btn btn-sm btn-primary me-1">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                        <form asp-action="Delete" asp-route-id="@todo.Id" method="post" style="display:inline;"
+                              onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer ce TODO ?');">
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No todos found.</p>
+}
