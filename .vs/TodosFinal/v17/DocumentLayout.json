@@ -75,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{64F23900-66C7-4182-B686-03F12DE69A25}|TodosFinal\\TodosFinal.csproj|solutionrelative:todosfinal\\viewmodel\\todoaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64F23900-66C7-4182-B686-03F12DE69A25}|TodosFinal\\TodosFinal.csproj|d:\\school\\4gi\\.net\\tp\u0027s\\todosfinal\\todosfinal\\services\\isessionmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F23900-66C7-4182-B686-03F12DE69A25}|TodosFinal\\TodosFinal.csproj|solutionrelative:todosfinal\\services\\isessionmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64F23900-66C7-4182-B686-03F12DE69A25}|TodosFinal\\TodosFinal.csproj|d:\\school\\4gi\\.net\\tp\u0027s\\todosfinal\\todosfinal\\services\\sessionmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64F23900-66C7-4182-B686-03F12DE69A25}|TodosFinal\\TodosFinal.csproj|solutionrelative:todosfinal\\services\\sessionmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,8 +106,7 @@
               "RelativeToolTip": "TodosFinal\\Filters\\LoggingFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:19:19.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:19:19.749Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "TodosFinal\\Filters\\ThemeFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:18:46.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:18:46.725Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "TodosFinal\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T15:57:36.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T15:57:36.184Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "TodosFinal\\Models\\Todo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:37:00.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T12:37:00.312Z"
             },
             {
               "$type": "Document",
@@ -199,8 +191,7 @@
               "RelativeToolTip": "TodosFinal\\Views\\Todo\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwAUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T22:25:15.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T22:25:15.541Z"
             },
             {
               "$type": "Document",
@@ -212,8 +203,7 @@
               "RelativeToolTip": "TodosFinal\\Controllers\\TodoController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T22:19:06.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T22:19:06.461Z"
             },
             {
               "$type": "Document",
@@ -225,8 +215,7 @@
               "RelativeToolTip": "TodosFinal\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:49:48.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T14:49:48.177Z"
             },
             {
               "$type": "Document",
@@ -238,8 +227,7 @@
               "RelativeToolTip": "TodosFinal\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T14:55:54.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T14:55:54.102Z"
             },
             {
               "$type": "Document",
@@ -251,8 +239,7 @@
               "RelativeToolTip": "TodosFinal\\Filters\\SessionAuthFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:01:32.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:01:32.181Z"
             },
             {
               "$type": "Document",
@@ -264,8 +251,7 @@
               "RelativeToolTip": "TodosFinal\\Controllers\\ThemeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:10:07.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:10:07.123Z"
             },
             {
               "$type": "Document",
@@ -277,8 +263,7 @@
               "RelativeToolTip": "TodosFinal\\Views\\User\\LoginForm.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T16:03:32.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T16:03:32.896Z"
             },
             {
               "$type": "Document",
@@ -307,18 +292,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "ISessionManagerService.cs",
-              "DocumentMoniker": "D:\\school\\4GI\\.Net\\TP\u0027S\\TodosFinal\\TodosFinal\\Services\\ISessionManagerService.cs",
-              "RelativeDocumentMoniker": "TodosFinal\\Services\\ISessionManagerService.cs",
-              "ToolTip": "D:\\school\\4GI\\.Net\\TP\u0027S\\TodosFinal\\TodosFinal\\Services\\ISessionManagerService.cs",
-              "RelativeToolTip": "TodosFinal\\Services\\ISessionManagerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T11:40:51.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "SessionManagerService.cs",
               "DocumentMoniker": "D:\\school\\4GI\\.Net\\TP\u0027S\\TodosFinal\\TodosFinal\\Services\\SessionManagerService.cs",
               "RelativeDocumentMoniker": "TodosFinal\\Services\\SessionManagerService.cs",
@@ -330,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "State.cs",
               "DocumentMoniker": "D:\\school\\4GI\\.Net\\TP\u0027S\\TodosFinal\\TodosFinal\\Enums\\State.cs",
               "RelativeDocumentMoniker": "TodosFinal\\Enums\\State.cs",
