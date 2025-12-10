@@ -85,7 +85,6 @@ D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\staticwebassets.b
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\staticwebassets.development.json
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\TodosFinal.dll
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\refint\TodosFinal.dll
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\TodosFinal.pdb
@@ -278,3 +277,4 @@ D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\bin\Debug\net9.0\zh-Hans\Microsoft
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\TodosFinal.csproj.AssemblyReference.cache
 D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\TodosFinal.csproj.Up2Date
+D:\school\4GI\.Net\TP'S\TodosFinal\TodosFinal\obj\Debug\net9.0\TodosFinal.sourcelink.json

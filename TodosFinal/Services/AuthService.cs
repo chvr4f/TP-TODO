@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using TodosFinal.Services.Interfaces;
 using TodosFinal.ViewModel;
 
 namespace TodosFinal.Services
@@ -31,7 +32,7 @@ namespace TodosFinal.Services
         public void Logout()
         {
             string logoutDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            _cookieManager.Set("LastLogout", logoutDate);
+            _cookieManager.Set("LastLogout", logoutDate, 30, httpOnly: false);
 
             _contextAccessor.HttpContext!.Session.Clear();
         }
